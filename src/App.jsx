@@ -26,10 +26,6 @@ function App() {
   <div style={{ display: "flex", flexDirection: "column", gap: "30px" }}>
     <h1 style={{ marginBottom: "20px" }}>Lead Dashboard</h1>
 
-    {/* 📊 Dashboard */}
-    {/* <div style={{ marginBottom: "30px" }}>
-      <Dashboard leads={leads} />
-    </div> */}
     <div style={{ marginBottom: "30px", overflow: "scroll" }}>
       <Dashboard leads={leads} />
     </div>
