@@ -11,7 +11,6 @@ function App() {
   const fetchLeads = async () => {
     try {
       const res = await API.get("/leads");
-      // res=await res.json()
       setLeads(res.data);
     } catch (error) {
       console.error("Error fetching leads:", error);
